@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Demo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    Hello world
+    <br>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password">
+    <br>
+    <label for="emailotp">Email OTP:</label>
+    <input type="text" id="emailotp" name="emailotp">
+    <br><br>
+    <div id="mfatoken" style="display: none;"></div>
+    <div id="oobcode" style="display: none;"></div>
+    <br><br>
+    <button id="validatepwd">Validate password</button>
+    <button id="challenge">Send OTP</button>
+    <button id="verifyotp">Verify email</button>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
